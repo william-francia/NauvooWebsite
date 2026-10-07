@@ -396,3 +396,43 @@ footer div:last-child p {
 @media (prefers-reduced-motion: reduce) {
     .site-header *, .site-header *::before, .site-header *::after { transition-duration: .01ms !important; }
 }
+
+/* Persistent WhatsApp contact link shared by every page. */
+.whatsapp-fixed-cta {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 1100;
+    display: inline-flex;
+    min-height: 62px;
+    align-items: center;
+    gap: 11px;
+    padding: 7px 20px 7px 8px;
+    border: 1px solid rgb(255 255 255 / .65);
+    border-radius: 999px;
+    background: #08c968;
+    color: #fff;
+    font-family: var(--body-font, "Open Sans", sans-serif);
+    font-size: .78rem;
+    font-weight: 650;
+    line-height: 1.05;
+    text-decoration: none;
+    box-shadow: 0 7px 20px rgb(0 0 0 / .22);
+    transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+.whatsapp-fixed-cta:hover { transform: translateY(-3px); background: #06b95e; box-shadow: 0 10px 24px rgb(0 0 0 / .25); }
+.whatsapp-fixed-cta:focus-visible { outline: 3px solid #15171b; outline-offset: 4px; }
+.whatsapp-fixed-icon { display: grid; width: 47px; height: 47px; flex: 0 0 47px; place-items: center; overflow: hidden; border: 2px solid #fff; border-radius: 50%; background: #08c968; }
+.whatsapp-fixed-icon img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.whatsapp-fixed-label { display: grid; gap: 2px; white-space: nowrap; }
+.whatsapp-fixed-label strong { font-size: 1.08rem; font-weight: 850; }
+
+@media (max-width: 480px) {
+    .whatsapp-fixed-cta { right: 12px; bottom: 12px; min-height: 56px; gap: 8px; padding: 6px 15px 6px 6px; font-size: .7rem; }
+    .whatsapp-fixed-icon { width: 42px; height: 42px; flex-basis: 42px; }
+    .whatsapp-fixed-label strong { font-size: .98rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .whatsapp-fixed-cta { transition-duration: .01ms !important; }
+}
