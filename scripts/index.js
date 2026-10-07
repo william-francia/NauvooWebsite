@@ -2,22 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const companiesContainer = document.getElementById("companiesworkwithid");
     const currentYear = document.getElementById("currentyear");
     const lastModified = document.getElementById("lastModified");
-    const whatsappFloat = document.querySelector("[data-whatsapp-float]");
-    const whatsappButton = whatsappFloat?.querySelector(".whatsapp-float-button");
-
-    const setWhatsappOpen = (isOpen) => {
-        if (!whatsappFloat || !whatsappButton) return;
-        whatsappFloat.classList.toggle("is-open", isOpen);
-        whatsappButton.setAttribute("aria-expanded", String(isOpen));
-        whatsappButton.setAttribute("aria-label", isOpen ? "Ocultar contacto de WhatsApp" : "Mostrar contacto de WhatsApp");
-    };
-
-    whatsappButton?.addEventListener("click", () => {
-        setWhatsappOpen(!whatsappFloat.classList.contains("is-open"));
-    });
-
-    window.addEventListener("scroll", () => setWhatsappOpen(false), { passive: true });
-
     if (currentYear) currentYear.textContent = new Date().getFullYear();
     if (lastModified) lastModified.textContent = `Last Modified: ${document.lastModified}`;
     if (!companiesContainer) return;
