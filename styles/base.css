@@ -388,7 +388,7 @@ footer div:last-child p {
     }
     .site-header .navclassmenu.show ul { align-items: stretch; flex-direction: column; gap: 2px; }
     .site-header .navclassmenu.show ul li { width: 100%; }
-    .site-header .navclassmenu.show ul a { width: 100%; min-height: 46px; padding: 0 10px; }
+    .site-header .navclassmenu.show ul a { box-sizing: border-box; width: 100%; min-height: 46px; padding: 0 10px; }
     .site-header .navclassmenu.show ul a[aria-current="page"]::after { right: auto; bottom: 5px; left: 10px; width: 28px; }
     .site-header .navclassmenu.show ul a.nav-quote { justify-content: center; margin-top: 8px; padding: 0 18px; }
 }
