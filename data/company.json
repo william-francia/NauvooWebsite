@@ -1,0 +1,58 @@
+[
+    {
+        "names": "Fischer",
+        "country": "Alemania",
+        "website URLs": "https://www.fischer.de",
+        "image or icon file names": "images/fischer.webp",
+        "membership_level": 3,
+        "description": "Fabricante líder mundial en sistemas de fijación, anclajes y soluciones para construcción. Ideal para importación de tacos, pernos, brocas y fijaciones industriales."
+    },
+    {
+        "names": "Mammut Tools",
+        "country": "Emiratos Árabes Unidos",
+        "website URLs": "https://mammuttools.com",
+        "image or icon file names": "images/mammut.webp",
+        "membership_level": 2,
+        "description": "Proveedor internacional de herramientas y accesorios de perforación, brocas industriales, discos de corte y herramientas pesadas."
+    },
+    {
+        "names": "Truper",
+        "country": "México",
+        "website URLs": "https://www.truper.com",
+        "image or icon file names": "images/truper.webp",
+        "membership_level": 3,
+        "description": "Una de las marcas de herramientas más grandes de Latinoamérica, con más de 12,000 productos para construcción, ferretería y uso industrial."
+    },
+    {
+        "names": "Unior",
+        "country": "Eslovenia",
+        "website URLs": "https://www.unior.com",
+        "image or icon file names": "images/unior.webp",
+        "membership_level": 2,
+        "description": "Fabricante europeo de herramientas manuales de alta precisión para mecánica, construcción y mantenimiento industrial."
+    },
+    {
+        "names": "Bosch Professional",
+        "country": "Alemania",
+        "website URLs": "https://www.bosch-professional.com",
+        "image or icon file names": "images/bolsh.webp",
+        "membership_level": 3,
+        "description": "Marca líder global en herramientas eléctricas, brocas, sistemas de perforación, medidores y maquinaria profesional."
+    },
+    {
+        "names": "Makita",
+        "country": "Japón",
+        "website URLs": "https://www.makitatools.com",
+        "image or icon file names": "images/makita.webp",
+        "membership_level": 3,
+        "description": "Fabricante mundial de herramientas eléctricas, baterías, taladros, sierras y maquinaria industrial de alto rendimiento."
+    },
+    {
+        "names": "DeWalt",
+        "country": "Estados Unidos",
+        "website URLs": "https://www.dewalt.com",
+        "image or icon file names": "images/dewalt.webp",
+        "membership_level": 2,
+        "description": "Marca líder en herramientas eléctricas industriales, accesorios de perforación, brocas, discos y soluciones para construcción pesada."
+    }
+]

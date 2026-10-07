@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="William Benjamin Francia Poma">
+    <meta name="description" content="Visita las sucursales de Nauvoo Importadores en el Centro y la Zona Sur de La Paz.">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Sucursales | Nauvoo Importadores">
+    <meta property="og:description" content="Encuentra tu sucursal Nauvoo en el Centro o la Zona Sur de La Paz.">
+    <meta property="og:image" content="https://william-francia.github.io/wdd231/finalproject/images/logonauvoo.webp">
+    <meta property="og:url" content="https://william-francia.github.io/wdd231/finalproject/sucursales.html">
+    <link rel="stylesheet" href="styles/base.css?v=header-compact-1">
+    <link rel="stylesheet" href="styles/sucursales.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/sucursales.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Nauvoo Importadores | Sucursales</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="imgheader" href="index.html" aria-label="Nauvoo Importadores, inicio">
+            <img src="images/logonauvoo.webp" alt="Nauvoo Importadores">
+        </a>
+        <nav id="navidmenu" class="navclassmenu" aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a aria-current="page" href="sucursales.html">Sucursales</a></li>
+                <li><a href="contactus.html">Contáctanos</a></li>
+                <li><a href="https://drive.google.com/file/d/1GCuE3K3toRsD3WHC9N9lvShDELbs3eON/view?usp=sharing" target="_blank" rel="noopener noreferrer">Catálogo PDF ↗</a></li>
+                <li><a class="nav-quote" href="contactus.html">Cotizar</a></li>
+            </ul>
+        </nav>
+        <button id="hamburgeridmenu" class="hamburgerclassmenu" type="button" aria-label="Abrir menú" aria-controls="navidmenu" aria-expanded="false"></button>
+    </header>
+
+    <main class="branches-page">
+        <section class="branches-hero" aria-labelledby="hero-title">
+            <img class="branches-hero-photo" src="images/sucursal-hero-nauvoo.png" alt="Interior de Nauvoo Importadores con mostrador y productos de ferretería">
+            <div class="branches-hero-shade"></div>
+            <div class="branches-hero-copy">
+                <p class="eyebrow">Ven a conocernos</p>
+                <h1 id="hero-title">Más cerca de tu próximo proyecto.</h1>
+                <p>Encuéntranos en nuestras dos sucursales y recibe atención personalizada.</p>
+                <a class="branch-button branch-button-primary" href="#sucursales">Elegir sucursal <span aria-hidden="true">↓</span></a>
+            </div>
+            <span class="photo-caption">Imagen referencial</span>
+        </section>
+
+        <section class="branch-list section-wrap" id="sucursales" aria-labelledby="branch-list-title">
+            <div class="section-heading">
+                <p class="eyebrow">Estamos cerca de ti</p>
+                <h2 id="branch-list-title">Elige dónde visitarnos<span class="branch-title-dot">.</span></h2>
+                <p>Nuestras dos sucursales están listas para asesorarte y ayudarte a encontrar lo que necesitas.</p>
+            </div>
+            <div class="branch-cards">
+                <article class="branch-card">
+                    <div class="branch-card-top">
+                        <span class="branch-wordmark" aria-label="Nauvoo">NAUVOO</span>
+                        <div class="branch-map-art" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M-8 28 39 0m-32 84L82 8m-33 111 79-92M7 120l85-93M49 0l79 69M-8 56l75 70m-24-2 74-79"/><circle cx="61" cy="57" r="27"/><path class="map-pin" d="M61 43a13 13 0 0 0-13 13c0 10 13 23 13 23s13-13 13-23a13 13 0 0 0-13-13Zm0 18a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"/></svg></div>
+                    </div>
+                    <div class="branch-card-heading"><h3>LA PAZ · CENTRO</h3><p>ISAAC TAMAYO</p></div>
+                    <div class="branch-card-details">
+                        <p><span class="branch-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>Isaac Tamayo, Pasaje El Rosario #25</p>
+                        <p><span class="branch-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>Lunes a sábado · 08:00 a 19:00</p>
+                    </div>
+                    <div class="branch-card-actions">
+                        <button class="branch-button branch-button-primary branch-select" type="button" data-branch="centro"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Ver ubicación <span aria-hidden="true">→</span></button>
+                        <a class="branch-button branch-button-outline" href="https://wa.me/59172556965?text=Hola%2C%20quisiera%20consultar%20por%20la%20Sucursal%20Centro." target="_blank" rel="noopener noreferrer"><img src="images/whatsapp.png" alt="" width="22" height="22">WhatsApp <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="branch-card">
+                    <div class="branch-card-top">
+                        <span class="branch-wordmark" aria-label="Nauvoo">NAUVOO</span>
+                        <div class="branch-map-art" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M-8 28 39 0m-32 84L82 8m-33 111 79-92M7 120l85-93M49 0l79 69M-8 56l75 70m-24-2 74-79"/><circle cx="61" cy="57" r="27"/><path class="map-pin" d="M61 43a13 13 0 0 0-13 13c0 10 13 23 13 23s13-13 13-23a13 13 0 0 0-13-13Zm0 18a5 5 0 1 1 0-10 5 5 0 0 1 0 10Z"/></svg></div>
+                    </div>
+                    <div class="branch-card-heading"><h3>LA PAZ · ZONA SUR</h3><p>CALACOTO</p></div>
+                    <div class="branch-card-details">
+                        <p><span class="branch-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>Cota Cota · Calle 32 #65</p>
+                        <p><span class="branch-detail-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>Lunes a sábado · 09:00 a 19:00</p>
+                    </div>
+                    <div class="branch-card-actions">
+                        <button class="branch-button branch-button-primary branch-select" type="button" data-branch="sur"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Ver ubicación <span aria-hidden="true">→</span></button>
+                        <a class="branch-button branch-button-outline" href="https://wa.me/59172556965?text=Hola%2C%20quisiera%20consultar%20por%20la%20Sucursal%20Zona%20Sur." target="_blank" rel="noopener noreferrer"><img src="images/whatsapp.png" alt="" width="22" height="22">WhatsApp <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="locations-section" id="ubicaciones" aria-labelledby="locations-title">
+            <div class="section-wrap">
+                <div class="section-heading section-heading-left">
+                    <p class="eyebrow">Nuestras ubicaciones</p>
+                    <h2 id="locations-title">Encuentra tu sucursal.</h2>
+                    <p>Consulta los detalles antes de visitarnos.</p>
+                </div>
+                <div class="branch-tabs" role="tablist" aria-label="Selecciona una sucursal">
+                    <button class="branch-tab is-active" id="tab-centro" role="tab" type="button" aria-selected="true" aria-controls="panel-centro" data-branch="centro">Sucursal Centro</button>
+                    <button class="branch-tab" id="tab-sur" role="tab" type="button" aria-selected="false" aria-controls="panel-sur" tabindex="-1" data-branch="sur">Sucursal Zona Sur</button>
+                </div>
+
+                <article class="location-panel is-active" id="panel-centro" role="tabpanel" aria-labelledby="tab-centro" data-panel="centro">
+                    <div class="location-details">
+                        <p class="eyebrow">La Paz · Centro</p>
+                        <h3>Sucursal Centro</h3>
+                        <dl>
+                            <div><dt><span aria-hidden="true">⌖</span> Ubicación</dt><dd>Isac Tamayo, Pasaje El Rosario #25, La Paz - Bolivia</dd></div>
+                            <div><dt><span aria-hidden="true">◷</span> Horarios</dt><dd>Lunes a sábado · 08:00 a 19:00</dd></div>
+                            <div><dt><span aria-hidden="true">♙</span> Atención</dt><dd>Consulta productos y disponibilidad.</dd></div>
+                        </dl>
+                        <a class="branch-button branch-button-primary full-button" href="https://www.google.com/maps/search/?api=1&query=-16.4977125%2C-68.1410863" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
+                        <a class="branch-button branch-button-outline full-button" href="https://wa.me/59172556965?text=Hola%2C%20quisiera%20consultar%20por%20la%20Sucursal%20Centro." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp ↗</a>
+                    </div>
+                    <div class="location-map">
+                        <iframe title="Mapa de la Sucursal Centro, La Paz" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d956.3904454750824!2d-68.14108627170185!3d-16.497712513117705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDI5JzUxLjgiUyA2OMKwMDgnMjUuNiJX!5e0!3m2!1ses!2sbo!4v1765309212821!5m2!1ses!2sbo" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="location-panel" id="panel-sur" role="tabpanel" aria-labelledby="tab-sur" data-panel="sur" hidden>
+                    <div class="location-details">
+                        <p class="eyebrow">La Paz · Zona Sur</p>
+                        <h3>Sucursal Zona Sur</h3>
+                        <dl>
+                            <div><dt><span aria-hidden="true">⌖</span> Ubicación</dt><dd>Cota Cota – Calle 32 #65, La Paz - Bolivia</dd></div>
+                            <div><dt><span aria-hidden="true">◷</span> Horarios</dt><dd>Lunes a sábado · 09:00 a 19:00</dd></div>
+                            <div><dt><span aria-hidden="true">♙</span> Atención</dt><dd>Consulta productos y disponibilidad.</dd></div>
+                        </dl>
+                        <a class="branch-button branch-button-primary full-button" href="https://www.google.com/maps/search/?api=1&query=-16.5412229%2C-68.0616618" target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
+                        <a class="branch-button branch-button-outline full-button" href="https://wa.me/59172556965?text=Hola%2C%20quisiera%20consultar%20por%20la%20Sucursal%20Zona%20Sur." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp ↗</a>
+                    </div>
+                    <div class="location-map">
+                        <iframe title="Mapa de la Sucursal Zona Sur, La Paz" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d956.1750665415504!2d-68.06166177170171!3d-16.541222913404976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDMyJzI4LjQiUyA2OMKwMDMnMzkuNyJX!5e0!3m2!1ses!2sbo!4v1765311604460!5m2!1ses!2sbo" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                    </div>
+                </article>
+                <aside class="location-help">
+                    <span class="help-icon" aria-hidden="true">◌</span>
+                    <div><strong>¿No sabes qué sucursal elegir?</strong><p>Te ayudamos a encontrar la más conveniente para ti.</p></div>
+                    <a href="https://wa.me/59172556965?text=Hola%2C%20%C2%BFme%20ayudan%20a%20elegir%20una%20sucursal%3F" target="_blank" rel="noopener noreferrer">Te orientamos por WhatsApp ↗</a>
+                </aside>
+            </div>
+        </section>
+
+        <section class="branches-cta" aria-labelledby="cta-title">
+            <img src="images/sucursal-cta.jpg" alt="Broca para trabajos de construcción, imagen referencial" loading="lazy">
+            <div class="branches-cta-shade"></div>
+            <div class="branches-cta-copy">
+                <h2 id="cta-title">Estamos listos para ayudarte.</h2>
+                <p>Consulta por WhatsApp y prepara tu visita.</p>
+                <a class="branch-button branch-button-primary" href="https://wa.me/59172556965" target="_blank" rel="noopener noreferrer">Hablar con un asesor ↗</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footernew">
+            <h3><strong>Nauvoo Hardware Imports</strong></h3>
+            <p>Calle Santa Cruz, Pasaje del Rosario, #2, La Paz, Bolivia</p>
+            <p>nauvooimportadoras@gmail.com</p>
+            <p><a href="tel:+59172556965">+591 72556965</a></p>
+        </div>
+        <div>
+            <p>&copy; <span id="currentyear"></span> William Benjamin Francia Poma | Developer | Bolivia</p>
+            <p id="lastModified"></p>
+            <p>La gran misión de nuestra empresa será siempre la satisfacción de nuestros clientes.</p>
+        </div>
+        <div class="footer2">
+            <nav class="socialmedia" aria-label="Redes sociales">
+                <a class="facebook" href="https://www.facebook.com/?locale=es_LA" aria-label="Facebook"><img src="images/app_facebook_logo.png" alt="" width="35" height="35"></a>
+                <a class="linkedin" href="https://www.instagram.com/" aria-label="Instagram"><img src="images/instagram_icon.png" alt="" width="35" height="35"></a>
+                <a class="whatsapp" href="https://wa.me/59172556965" aria-label="WhatsApp"><img src="images/whatsapp.png" alt="" width="35" height="35"></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

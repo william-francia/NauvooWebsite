@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
+  <title id="title">La Paz, Zona Sur · Calacoto · Erraway</title>
+  <desc id="description">Ilustración cálida con una pequeña tienda de referencia para la sucursal Erraway en Calacoto.</desc>
+  <rect width="1200" height="400" fill="#f8f5ec"/>
+  <path d="M0 292c161-51 286 28 420-3s253-58 390-13 245-16 390-45v169H0Z" fill="#e9eee2"/>
+  <circle cx="192" cy="91" r="37" fill="#fff" opacity=".7"/>
+  <circle cx="192" cy="91" r="21" fill="#f0e5d2"/>
+  <text x="600" y="77" fill="#20242a" font-family="Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="1" text-anchor="middle">LA PAZ · ZONA SUR</text>
+  <text x="600" y="119" fill="#656b71" font-family="Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="2" text-anchor="middle">CALACOTO</text>
+  <g transform="translate(548 143)">
+    <path d="M12 34 52 3l40 31v54H12Z" fill="#fffaf0" stroke="#806c58" stroke-width="4" stroke-linejoin="round"/>
+    <path d="m5 36 47-37 47 37" fill="none" stroke="#76916a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="43" y="53" width="19" height="35" rx="3" fill="#d94736"/>
+    <rect x="20" y="48" width="17" height="17" rx="3" fill="#d9e8e2" stroke="#806c58" stroke-width="3"/>
+    <rect x="69" y="48" width="17" height="17" rx="3" fill="#d9e8e2" stroke="#806c58" stroke-width="3"/>
+    <circle cx="57" cy="72" r="1.8" fill="#fff"/>
+  </g>
+  <text x="600" y="330" fill="#d94736" font-family="Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="1" text-anchor="middle">Erraway</text>
+  <path d="M486 349h228" stroke="#d9c8ae" stroke-width="3" stroke-linecap="round"/>
+</svg>
